@@ -15,6 +15,8 @@ HEADERS		+= ./Header/sstTemplateLib.h
 HEADERS		+= sstTemplateLibInt.h
 SOURCES		+= sstTemplateLib.cpp
 
+OTHER_FILES += readme.txt
+
 debug{
   TARGET		= sstTemplateLib_d
 }
